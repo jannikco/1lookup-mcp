@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-1lookup",
+      "description": "Connect AI agents to 1Lookup using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-1lookup/SKILL.md": "eef52454d62e2bf7de57e7a76eb2c1dcabdb43586853c280a3c38718544cc403"
+  }
+}
