@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "6b1d9ed0a1fbdeeb014da25fb3e0419e6ab310e240413cf50f56d7c2f168947f",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://www.1lookup.io/openapi.json"
+  ],
+  "id": "1lookup-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "1Lookup MCP setup and connection checker",
+  "description": "Generate 1Lookup MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "1lookup",
+  "appName": "1Lookup",
+  "providerDocs": "https://www.1lookup.io/openapi.json",
+  "providerWebsite": "https://www.1lookup.io/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://app.1lookup.io/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-1lookup-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
